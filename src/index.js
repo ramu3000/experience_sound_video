@@ -115,4 +115,4 @@ function fullScreenCheck() {
   return document.documentElement.requestFullscreen();
 }
 //Start scripts
-video.src = 'https://www.dropbox.com/s/y57di8j87c9n64m/Rudi%20Rok%20wide%20coveri5long.mp4?raw=1'
+video.src = '';
