@@ -1,0 +1,27 @@
+{
+  "name": "experience_sound_video",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "mode": "development",
+  "scripts": {
+    "build": "webpack",
+    "webpack": "webpack",
+    "start": "webpack-dev-server --open",
+    "webpack:dev": "npm run webpack --config webpack.development.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
